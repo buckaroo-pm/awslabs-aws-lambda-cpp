@@ -1,0 +1,48 @@
+manifest = "99978d6122951edd55b8d3e38c1de538795eaff0550e7eceba5feaee830fd6cc"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/aws-sdk-cpp"
+target = "//aws-cpp-sdk-core:aws-cpp-sdk-core"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/google-googletest"
+target = "//:googletest"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-curl"
+target = "//:curl"
+
+[[lock]]
+name = "github.com/buckaroo-pm/aws-c-event-stream"
+version = "branch=master"
+revision = "be696d9d64c376202f3a9209826173409df8790f"
+
+[[lock]]
+name = "github.com/buckaroo-pm/aws-sdk-cpp"
+version = "branch=master"
+revision = "8dd7f860790a74ee5ad3b70bd7afa2a0882b6d6d"
+
+[[lock]]
+name = "github.com/buckaroo-pm/awslabs-aws-c-common"
+version = "branch=master"
+revision = "1d755e3287db2a89d6c7ac52f4b818e5205b3026"
+
+[[lock]]
+name = "github.com/buckaroo-pm/awslabs-aws-checksums"
+version = "branch=master"
+revision = "7598679075b147468fd83e95d34fddcd541b1efc"
+
+[[lock]]
+name = "github.com/buckaroo-pm/google-googletest"
+version = "branch=master"
+revision = "cb8d2c1a2fcd344953e6c129a1a699a2c230551d"
+
+[[lock]]
+name = "github.com/buckaroo-pm/openssl"
+version = "tag=1.0.2j"
+revision = "e61671249ee5dfa59b663d135b64dd6fe9efe9d0"
+
+[[lock]]
+name = "github.com/buckaroo-pm/pkg-config-curl"
+version = "branch=master"
+revision = "c0eac677dc0066d1c994bf68edd314deebe7cb74"

@@ -1,0 +1,13 @@
+targets = [ "//:aws-lambda-cpp" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/aws-sdk-cpp"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/google-googletest"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/pkg-config-curl"
+version = "*"

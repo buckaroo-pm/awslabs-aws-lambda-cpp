@@ -1,0 +1,11 @@
+load('//:buckaroo_macros.bzl', 'buckaroo_deps_from_package')
+
+cxx_binary(
+  name = 'tests', 
+  srcs = glob([
+    '*.cpp', 
+  ]), 
+  deps = buckaroo_deps_from_package('github.com/buckaroo-pm/google-googletest') + [
+    '//:aws-lambda-cpp', 
+  ], 
+)

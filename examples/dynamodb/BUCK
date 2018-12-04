@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'dynamodb', 
+  srcs = [
+    'main.cpp', 
+  ], 
+  deps = [
+    '//:aws-lambda-cpp', 
+  ], 
+)

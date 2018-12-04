@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 's3', 
+  srcs = [
+    'main.cpp', 
+  ], 
+  deps = [
+    '//:aws-lambda-cpp', 
+  ], 
+)
